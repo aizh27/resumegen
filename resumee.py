@@ -9,7 +9,7 @@ from fpdf import FPDF # For basic PDF generation
 load_dotenv()
 
 # Configure Gemini API
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("AIzaSyCnf6dyqpz9wbnvAeVBkarbRBP28zMpqf4")
 if not API_KEY:
     st.error("GEMINI_API_KEY not found in .env file. Please create one.")
     st.stop()
